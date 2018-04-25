@@ -1,0 +1,51 @@
+USE [Pokemon]
+GO
+
+/****** Object:  Table [dbo].[Pokemons_1Geracao]    Script Date: 25/04/2018 18:32:22 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Pokemons_1Geracao](
+	[pkCodigo] [int] NULL,
+	[pkName] [nvarchar](50) NULL,
+	[pkEletric] [bit] NULL,
+	[pkAgua] [bit] NULL,
+	[pkPlant] [bit] NULL,
+	[pkFantas] [bit] NULL,
+	[pkPsiq] [bit] NULL,
+	[pkFogo] [bit] NULL,
+	[pkInseto] [bit] NULL,
+	[pkVene] [bit] NULL,
+	[pkVoador] [bit] NULL,
+	[pkPedra] [bit] NULL,
+	[pkDrag] [bit] NULL,
+	[pkLendario] [bit] NULL,
+	[pkAzul] [bit] NULL,
+	[pkVerde] [bit] NULL,
+	[pkVermelho] [bit] NULL,
+	[pkLaranja] [bit] NULL,
+	[pkAmarelo] [bit] NULL,
+	[pkPreto] [bit] NULL,
+	[pkBranco] [bit] NULL,
+	[pkRoxo] [bit] NULL,
+	[pkRosa] [bit] NULL,
+	[pkMarrom] [bit] NULL,
+	[pkCinza] [bit] NULL,
+	[pkAve] [bit] NULL,
+	[pkRato] [bit] NULL,
+	[pkPeixe] [bit] NULL,
+	[pkEstrela] [bit] NULL,
+	[pkTouro] [bit] NULL,
+	[pkBola] [bit] NULL,
+	[pkCarague] [bit] NULL,
+	[pkMetal] [bit] NULL,
+	[pkGato] [bit] NULL,
+	[pkMorcego] [bit] NULL,
+	[pkCobra] [bit] NULL,
+	[pkTarta] [bit] NULL
+) ON [PRIMARY]
+
+GO
