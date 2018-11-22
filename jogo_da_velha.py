@@ -134,7 +134,6 @@ _____|_____|_____
         global p1, p2, p3, p4, p5, p6, p7, p8, p9
         global pos1, pos2, pos3, pos4, pos5, pos6, pos7, pos8, pos9
 
-        print('Deixe-me pensar na minha jogada...')
         sleep(1.5)
         jogada_aleatoria = randint(1, 9)
 
@@ -148,8 +147,6 @@ _____|_____|_____
             jogada_aleatoria == 8 and pos8 == 'ocupada' or \
                 jogada_aleatoria == 9 and pos9 == 'ocupada':
             jogada_aleatoria = randint(1, 9)
-
-        print('\nEu jogo na posição {}!'.format(jogada_aleatoria))
 
         if jogada_aleatoria == 1:
             p1 = adv
