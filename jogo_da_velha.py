@@ -18,26 +18,6 @@ while True:
     turnos = 1
     vencedor = ''
 
-    tabuleiro_inicial = '''
---- COMO JOGAR ---
-
-Quando for sua vez, digite o número correspondente à posição no tabuleiro para fazer sua jogada nela.
-
-Por exemplo, digamos que você queira jogar no centro, então você digita 5.
-
-     |     |     
-  1  |  2  |  3  
-_____|_____|_____
-     |     |     
-  4  |  5  |  6  
-_____|_____|_____
-     |     |     
-  7  |  8  |  9  
-     |     |     
-    '''
-
-    print(tabuleiro_inicial)
-
     print('Você quer ser o X (xis) ou a O (bola)?', end=' ')
 
     while j != 'O' and j != 'X':
